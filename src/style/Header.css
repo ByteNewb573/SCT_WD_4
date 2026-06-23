@@ -1,0 +1,74 @@
+/* AI Purple Theme Navbar */
+
+.ai-navbar {
+  background: linear-gradient(
+    135deg,
+    #0f172a,
+    #312e81,
+    #6d28d9,
+    #9333ea
+  );
+  backdrop-filter: blur(12px);
+  padding: 15px 40px;
+  box-shadow: 0 8px 25px rgba(109, 40, 217, 0.35);
+}
+
+.ai-logo {
+  color: #ffffff !important;
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: all 0.4s ease;
+}
+
+.ai-logo:hover {
+  color: #d8b4fe !important;
+  text-shadow: 0 0 15px #c084fc;
+}
+
+.ai-link {
+  color: #e9d5ff !important;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-left: 25px;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.ai-link:hover {
+  color: #ffffff !important;
+  transform: translateY(-3px);
+}
+
+/* Neon underline effect */
+
+.ai-link::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 3px;
+  left: 0;
+  bottom: -5px;
+  border-radius: 10px;
+  background: linear-gradient(
+    90deg,
+    #c084fc,
+    #f0abfc
+  );
+  transition: 0.4s ease;
+}
+
+.ai-link:hover::after {
+  width: 100%;
+}
+
+/* Active Nav Link */
+
+.ai-link.active {
+  color: white !important;
+}
+
+.ai-link.active::after {
+  width: 100%;
+}

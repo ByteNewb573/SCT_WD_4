@@ -1,0 +1,96 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+/* Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Full Height */
+
+html,
+body,
+#root {
+  width: 100%;
+  min-height: 100%;
+}
+
+/* Main Background */
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: white;
+
+  background: linear-gradient(
+    135deg,
+    #020617 0%,
+    #0f172a 20%,
+    #1e1b4b 45%,
+    #4c1d95 70%,
+    #7e22ce 100%
+  );
+
+  background-size: 400% 400%;
+  background-attachment: fixed;
+
+  animation: gradientMove 12s ease infinite;
+
+  overflow-x: hidden;
+}
+
+/* React Root */
+
+#root {
+  min-height: 100vh;
+}
+
+/* Smooth Scrolling */
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Selection Color */
+
+::selection {
+  background: #a855f7;
+  color: white;
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0f172a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #7e22ce;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a855f7;
+}
+
+/* Background Animation */
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
