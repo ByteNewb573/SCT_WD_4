@@ -1,70 +1,122 @@
-# Getting Started with Create React App
+# Todo Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A full-stack MERN Todo application that allows users to create, update, delete, and manage daily tasks through a clean and responsive user interface. The application provides an efficient way to organize tasks and track their completion status with data stored in MongoDB.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+* Create new tasks
+* View all tasks
+* Update existing tasks
+* Delete tasks
+* Track pending and completed tasks
+* Responsive user interface
+* RESTful API integration
+* MongoDB database support
 
-### `npm start`
+## Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Frontend
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* React.js
+* React Router
+* CSS3
+* Bootstrap
 
-### `npm test`
+Backend
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Node.js
+* Express.js
 
-### `npm run build`
+Database
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* MongoDB
+* Mongoose
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Project Structure
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```text
+Todo-App/
+│
+├── backend/
+│   ├── controllers/
+│   ├── models/
+│   ├── routes/
+│   └── server.js
+│
+├── public/
+├── src/
+│   ├── MyComponents/
+│   ├── style/
+│   ├── App.js
+│   └── index.js
+│
+├── package.json
+├── package-lock.json
+└── README.md
+```
 
-### `npm run eject`
+## Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Clone the repository:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+git clone https://github.com/ByteNewb573/SCT_WD_4.git
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Navigate to the project directory:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+cd SCT_WD_4
+```
 
-## Learn More
+Install frontend dependencies:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+npm install
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Start the React application:
 
-### Code Splitting
+```bash
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Install backend dependencies:
 
-### Analyzing the Bundle Size
+```bash
+cd backend
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Start the backend server:
 
-### Making a Progressive Web App
+```bash
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Usage
 
-### Advanced Configuration
+* Add new tasks with a title and description.
+* Edit existing tasks.
+* Delete tasks that are no longer required.
+* View pending and completed tasks.
+* Manage daily activities through a simple and responsive interface.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Future Enhancements
 
-### Deployment
+* User authentication
+* Search functionality
+* Task filtering
+* Due dates and reminders
+* Task priority management
+* Dark mode
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Author
 
-### `npm run build` fails to minify
+ByteNewb573
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+GitHub: https://github.com/ByteNewb573/SCT_WD_4
+
+## License
+
+This project is intended for educational and learning purposes.
